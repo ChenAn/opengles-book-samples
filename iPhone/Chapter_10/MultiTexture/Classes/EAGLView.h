@@ -33,15 +33,13 @@ Note that setting the view non-opaque will only work if the EAGL surface has an 
     /* OpenGL name for the depth buffer that is attached to viewFramebuffer, if it exists (0 if it does not exist) */
     GLuint depthRenderbuffer;
     
-    NSTimer *animationTimer;
-    NSTimeInterval animationInterval;
 	NSTimeInterval prevTick;
 	
 	// ES Programming Guide context
 	ESContext esContext;
 }
 
-@property NSTimeInterval animationInterval;
+@property (nonatomic) NSTimeInterval animationInterval;
 
 - (void)startAnimation;
 - (void)stopAnimation;

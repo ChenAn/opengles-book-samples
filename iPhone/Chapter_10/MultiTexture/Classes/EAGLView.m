@@ -39,7 +39,6 @@ void ShutDown(ESContext *esContext);
 @synthesize animationTimer;
 @synthesize animationInterval;
 
-
 // You must implement this method
 + (Class)layerClass {
     return [CAEAGLLayer class];
@@ -60,7 +59,6 @@ void ShutDown(ESContext *esContext);
         context = [[EAGLContext alloc] initWithAPI:kEAGLRenderingAPIOpenGLES2];
         
         if (!context || ![EAGLContext setCurrentContext:context]) {
-            [self release];
             return nil;
         }
         
@@ -77,7 +75,6 @@ void ShutDown(ESContext *esContext);
     
 	// Compute time delta
 	NSTimeInterval curTick = [NSDate timeIntervalSinceReferenceDate];
-	NSTimeInterval deltaTime = curTick - prevTick;
 	prevTick = curTick;
     
     [EAGLContext setCurrentContext:context];
@@ -178,9 +175,6 @@ void ShutDown(ESContext *esContext);
     if ([EAGLContext currentContext] == context) {
         [EAGLContext setCurrentContext:nil];
     }
-    
-    [context release];  
-    [super dealloc];
 }
 
 @end

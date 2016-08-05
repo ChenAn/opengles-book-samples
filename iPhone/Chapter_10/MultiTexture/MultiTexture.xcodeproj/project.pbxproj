@@ -3,14 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 45;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		0C3C622B0FE9D0E900B89181 /* basemap.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C3C62290FE9D0E900B89181 /* basemap.png */; };
 		0C3C622C0FE9D0E900B89181 /* lightmap.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C3C622A0FE9D0E900B89181 /* lightmap.png */; };
 		0C3C622E0FE9D10000B89181 /* MultiTexture.c in Sources */ = {isa = PBXBuildFile; fileRef = 0C3C622D0FE9D10000B89181 /* MultiTexture.c */; };
-		0C3C62310FE9D1C800B89181 /* libCommon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C3C62300FE9D1C800B89181 /* libCommon.a */; };
 		0C3C63820FE9D71500B89181 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C3C63810FE9D71500B89181 /* CoreGraphics.framework */; };
 		1D3623260D0F684500981E51 /* MultiTextureAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* MultiTextureAppDelegate.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
@@ -20,13 +19,17 @@
 		28FD14FE0DC6FC130079059D /* EAGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 28FD14FD0DC6FC130079059D /* EAGLView.m */; };
 		28FD15000DC6FC520079059D /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28FD14FF0DC6FC520079059D /* OpenGLES.framework */; };
 		28FD15080DC6FC5B0079059D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28FD15070DC6FC5B0079059D /* QuartzCore.framework */; };
+		70ACFB2C1D2F627100E7F4B5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 70ACFB2B1D2F627100E7F4B5 /* Default-568h@2x.png */; };
+		70ACFB2E1D2F633500E7F4B5 /* libCommon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 70ACFB2D1D2F633500E7F4B5 /* libCommon.a */; };
+		70ACFB321D2F66FF00E7F4B5 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70ACFB301D2F66FF00E7F4B5 /* RootViewController.m */; };
+		70ACFB331D2F66FF00E7F4B5 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 70ACFB311D2F66FF00E7F4B5 /* RootViewController.xib */; };
+		70ACFB351D2F689A00E7F4B5 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70ACFB341D2F689A00E7F4B5 /* GLKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0C3C62290FE9D0E900B89181 /* basemap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = basemap.png; sourceTree = "<group>"; };
 		0C3C622A0FE9D0E900B89181 /* lightmap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lightmap.png; sourceTree = "<group>"; };
 		0C3C622D0FE9D10000B89181 /* MultiTexture.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = MultiTexture.c; sourceTree = "<group>"; };
-		0C3C62300FE9D1C800B89181 /* libCommon.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libCommon.a; path = "../../Common/build/Debug-iphonesimulator/libCommon.a"; sourceTree = SOURCE_ROOT; };
 		0C3C63810FE9D71500B89181 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D3623240D0F684500981E51 /* MultiTextureAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiTextureAppDelegate.h; sourceTree = "<group>"; };
@@ -40,6 +43,12 @@
 		28FD15070DC6FC5B0079059D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* MultiTexture_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiTexture_Prefix.pch; sourceTree = "<group>"; };
+		70ACFB2B1D2F627100E7F4B5 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		70ACFB2D1D2F633500E7F4B5 /* libCommon.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libCommon.a; sourceTree = "<group>"; };
+		70ACFB2F1D2F66FF00E7F4B5 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		70ACFB301D2F66FF00E7F4B5 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		70ACFB311D2F66FF00E7F4B5 /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		70ACFB341D2F689A00E7F4B5 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
 		8D1107310486CEB800E47090 /* MultiTexture-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "MultiTexture-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -48,11 +57,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70ACFB351D2F689A00E7F4B5 /* GLKit.framework in Frameworks */,
+				70ACFB2E1D2F633500E7F4B5 /* libCommon.a in Frameworks */,
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				28FD15000DC6FC520079059D /* OpenGLES.framework in Frameworks */,
 				28FD15080DC6FC5B0079059D /* QuartzCore.framework in Frameworks */,
-				0C3C62310FE9D1C800B89181 /* libCommon.a in Frameworks */,
 				0C3C63820FE9D71500B89181 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -67,6 +77,9 @@
 				28FD14FD0DC6FC130079059D /* EAGLView.m */,
 				1D3623240D0F684500981E51 /* MultiTextureAppDelegate.h */,
 				1D3623250D0F684500981E51 /* MultiTextureAppDelegate.m */,
+				70ACFB2F1D2F66FF00E7F4B5 /* RootViewController.h */,
+				70ACFB301D2F66FF00E7F4B5 /* RootViewController.m */,
+				70ACFB311D2F66FF00E7F4B5 /* RootViewController.xib */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -82,6 +95,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				70ACFB2B1D2F627100E7F4B5 /* Default-568h@2x.png */,
 				0C3C622D0FE9D10000B89181 /* MultiTexture.c */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
@@ -115,8 +129,9 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				70ACFB341D2F689A00E7F4B5 /* GLKit.framework */,
+				70ACFB2D1D2F633500E7F4B5 /* libCommon.a */,
 				0C3C63810FE9D71500B89181 /* CoreGraphics.framework */,
-				0C3C62300FE9D1C800B89181 /* libCommon.a */,
 				28FD15070DC6FC5B0079059D /* QuartzCore.framework */,
 				28FD14FF0DC6FC520079059D /* OpenGLES.framework */,
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
@@ -150,8 +165,11 @@
 /* Begin PBXProject section */
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "MultiTexture" */;
-			compatibilityVersion = "Xcode 3.1";
+			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 1;
 			knownRegions = (
@@ -175,6 +193,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				70ACFB2C1D2F627100E7F4B5 /* Default-568h@2x.png in Resources */,
+				70ACFB331D2F66FF00E7F4B5 /* RootViewController.xib in Resources */,
 				0C3C622B0FE9D0E900B89181 /* basemap.png in Resources */,
 				0C3C622C0FE9D0E900B89181 /* lightmap.png in Resources */,
 			);
@@ -191,6 +211,7 @@
 				1D3623260D0F684500981E51 /* MultiTextureAppDelegate.m in Sources */,
 				28FD14FE0DC6FC130079059D /* EAGLView.m in Sources */,
 				0C3C622E0FE9D10000B89181 /* MultiTexture.c in Sources */,
+				70ACFB321D2F66FF00E7F4B5 /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,6 +222,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -211,9 +234,11 @@
 				INFOPLIST_FILE = "MultiTexture-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/../../Common/build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"",
+					"$(PROJECT_DIR)",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = MultiTexture;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -221,6 +246,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = MultiTexture_Prefix.pch;
@@ -229,35 +256,39 @@
 				INFOPLIST_FILE = "MultiTexture-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/../../Common/build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"",
+					"$(PROJECT_DIR)",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = MultiTexture;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		C01FCF4F08A954540054247B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
 				PREBINDING = NO;
 				SDKROOT = iphoneos;
+				SHARED_PRECOMPS_DIR = "";
 			};
 			name = Debug;
 		};
 		C01FCF5008A954540054247B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				PREBINDING = NO;
 				SDKROOT = iphoneos;
+				SHARED_PRECOMPS_DIR = "";
 			};
 			name = Release;
 		};
